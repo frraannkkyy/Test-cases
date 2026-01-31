@@ -10,3 +10,32 @@ IT23348684-IT3040-Assignment1/
 ├── package-lock.json            # Generated after npm install
 ├── playwright.config.js
 └── README.md
+
+# IT3040 – ITPM Assignment 1  
+**SLIIT BSc (Hons) in Information Technology – Year 3**  
+**Semester 1 – 2025/2026**  
+
+**Student:** Pasindu (Registration: IT23348684)  
+**Option:** 1 (Singlish → Sinhala)  
+**Tested Application:** https://www.swifttranslator.com/  
+
+## Objective
+This repository contains automated Playwright tests for evaluating the accuracy of Singlish-to-Sinhala conversion and basic UI stability/usability (real-time output, input clearing).
+
+- **24+ Positive functional scenarios** (correct conversions)  
+- **10+ Negative functional scenarios** (incorrect/incomplete/failure behaviors)  
+- **UI behavior tests** (real-time typing, clearing input)  
+
+Tests cover required categories: sentence structures (simple/compound/complex), interrogative/imperative, positive/negative forms, greetings/requests/responses, polite/informal, tenses, negation, plurals/pronouns, mixed English, numbers/punctuation, formatting (spaces/line breaks), slang, typographical errors, long inputs, etc.
+
+## Project Setup
+
+### Prerequisites
+- Node.js ≥ 18  
+- npm  
+
+### Installation
+```bash
+git clone https://github.com/YOUR-USERNAME/IT23348684-IT3040-Assignment1.git
+cd IT23348684-IT3040-Assignment1
+npm install
